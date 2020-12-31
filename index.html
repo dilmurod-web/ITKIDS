@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 <body>
-	<nav class="navbar">
+	<nav class="navbar bg-dark">
 		<div class="container">
 			<a class="w-25 navbar-brand" href="#">
 				<img class="w-25 nav-logo" src="img/robotics.svg">
@@ -26,38 +26,127 @@
 				py-1" href="#">
 				About
 			</a>
-			</li>
-			<li class="nav-item">
-				<a type="link" class="btn btn-primary mx-1 px-2
-				py-1" href="#">
-					Photos
-				</a>
-			</li>
-			<li class="nav-item position-relative">
-				<button type="button" class="btn btn-primary dropdown-toggle mx-1 px-2
-				py-1" data-bs-toggle="dropdown" aria-expanded="false">
-					Courses
-				</button>
-				<ul class="dropdown-menu position-absolute border-0">
-					<li><a class="dropdown-item" href="#">Arduino</a></li>
-					<li><a class="dropdown-item" href="#">VEX IQ</a></li>
-				</ul>
-			</li>
-			<li class="nav-item">
-				<a type="link" class="btn btn-primary mx-1 px-2
-				py-1" href="#">
-					Pages
-				</a>
-			</li>
-			<li class="nav-item">
-				<button type="button" class="btn btn-outline-warning mx-1 px-2
-				py-1">
-					Registration
-				</button>
-			</li>
-		</ul>
-	</div>
+		</li>
+		<li class="nav-item">
+			<a type="link" class="btn btn-primary mx-1 px-2
+			py-1" href="#">
+			Photos
+		</a>
+	</li>
+	<li class="nav-item position-relative">
+		<button type="button" class="btn btn-primary dropdown-toggle mx-1 px-2
+		py-1" data-bs-toggle="dropdown" aria-expanded="false">
+		Courses
+	</button>
+	<ul class="dropdown-menu position-absolute border-info bg-dark">
+		<li><a class="dropdown-item text-info" href="#">Arduino</a></li>
+		<li><a class="dropdown-item text-info" href="#">VEX IQ</a></li>
+	</ul>
+</li>
+<li class="nav-menu position-relative d-none">
+	<button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+		Действие
+	</button>
+	<ul class="dropdown-menu position-absolute">
+		<li><a class="dropdown-item" href="#">Home</a>	</li>
+		<li><a class="dropdown-item" href="#">About действие</a></li>
+		<li><a class="dropdown-item" href="#">Photos</a></li>
+	</ul>
+</li>
+<li class="nav-item">
+	<button type="button" class="btn btn-outline-warning mx-1 px-2
+	py-1">
+	Registration
+</button>
+</li>
+</ul>
+</div>
 </nav>
+<section class="about-section bg-info ">
+	<div class="container py-3">
+		<h1 class="about-sec-title text-center mt-5">
+			About Us
+		</h1>
+		<div class="row d-flex justify-content-around mt-4">
+			<div class="col-6">
+				<img class="about-sec-list-img w-100" src="./img/robotics-arm.svg">
+			</div>
+			<div class="col-5">
+				<p class="about-sec-list-subtetxt pt-4">
+					Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Veniam sequi totam quo temporibus, vero facilis, praesentium odio ratione exercitationem recusandae odit obcaecati voluptates voluptatem modi necessitatibus expedita nihil minima. Vero deleniti earum qui vel, veniam tempore iure ullam a ex, pariatur quod consequuntur, fuga, saepe? Distinctio et quibusdam, incidunt adipisci commodi. Maxime velit ad earum mollitia cupiditate perferendis eius nam, beatae repellendus voluptatem, nisi, commodi tempore? Eum alias aliquam debitis, aliquid neque explicabo dicta nulla illum architecto aut, esse asperiores excepturi voluptate. Blanditiis, et expedita. Esse omnis perferendis blanditiis repellat tempore atque consequatur. Natus corrupti eos iusto totam incidunt a, officiis maiores minima enim dolore soluta voluptatem, autem doloremque. Sapiente corrupti eos rerum cumque eius repellendus sit, dolorum error. Repudiandae laborum dolore, voluptas eum, explicabo excepturi nam possimus fugit laudantium fuga quas commodi exercitationem, delectus. Ea, impedit, perspiciatis? Nihil...
+				</p>
+				<button type="button" class="btn btn-outline-dark mt-1">Learn More</button>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- <section class="photos-section">
+	<div class="container">
+		<h1 class="photos-sec-title text-center mt-5">Photos</h1>
+		<div class="photos-sec-main">
+			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+					<li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+					<li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner ">
+					<div class="carousel-item active">
+						<img class="carousel-img" src="img/ab_1.jpeg" class="carousel-img d-block w-100 h-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Метка первого слайда</h5>
+							<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+						</div>
+					</div>
+					<div class="carousel-item overflow-hidden">
+						<img class="carousel-img" src="img/ab_2.jpeg" class="carousel-img d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Метка второго слайда</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img class="carousel-img" src="img/ab_3.jpeg" class="carousel-img d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Метка третьего слайда</h5>
+							<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Предыдущий</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Следующий</span>
+				</a>
+			</div>
+		</div>
+	</div>
+</section> -->
+<section class="courses-sec">
+	<h1 class="text-center my-4">Courses</h1>
+	<div class="container d-flex justify-content-around py-3">
+		<div class="card p-3 border-0 shadow p-3 mb-5 bg-white rounded" style="width: 20rem;">
+			<img src="./img/cours1.jpeg" class="card-img-top" alt="...">
+			<div class="card-body">
+				<h5 class="card-title text-capitalize">Arduino</h5>
+				<p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+				<a href="#" class="btn btn-primary">Learn More</a>
+			</div>
+		</div>
+		<div class="card p-3 border-0 shadow p-3 mb-5 bg-white rounded" style="width: 20rem;">
+			<img src="img/cours2.jpeg" class="card-img-top" alt="...">
+			<div class="card-body">
+				<h5 class="card-title">VEX IQ</h5>
+				<p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+				<a href="#" class="btn btn-primary">Learn More</a>
+			</div>
+		</div>
+	</div>
+</section>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
