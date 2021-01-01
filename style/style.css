@@ -1,3 +1,4 @@
-.card:hover{
-	box-shadow: !important box-shadow: 5px 5px 25px -10px black;
+html body .registration-sec{
+	background-image: !important url(../img/robort.jpg);
+	background-size: cover;
 }
