@@ -1,4 +1,6 @@
-html body .registration-sec{
-	background-image: !important url(../img/robort.jpg);
-	background-size: cover;
+@media(max-width: 1000px){
+	.about-section > .container{
+		display: !important flex;
+		flex-direction: !important column;
+	}
 }

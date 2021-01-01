@@ -12,9 +12,9 @@
 	<nav class="navbar bg-dark">
 		<div class="container">
 			<a class="w-25 navbar-brand" href="#">
-				<img class="w-25 nav-logo" src="img/robotics.svg">
+				<img class="w-md-25 w-50 nav-logo" src="img/robotics.svg">
 			</a>
-			<ul class="navbar-nav d-flex flex-md-row">
+			<ul class="navbar-nav d-md-flex flex-md-row d-none">
 				<li class="nav-item">
 					<a type="link" class="btn btn-primary mx-1 px-2
 					py-1" href="#">
@@ -43,16 +43,7 @@
 		<li><a class="dropdown-item text-info" href="#">VEX IQ</a></li>
 	</ul>
 </li>
-<li class="nav-menu position-relative d-none">
-	<button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-		Действие
-	</button>
-	<ul class="dropdown-menu position-absolute">
-		<li><a class="dropdown-item" href="#">Home</a>	</li>
-		<li><a class="dropdown-item" href="#">About действие</a></li>
-		<li><a class="dropdown-item" href="#">Photos</a></li>
-	</ul>
-</li>
+
 <li class="nav-item">
 	<button type="button" class="btn btn-outline-warning mx-1 px-2
 	py-1">
@@ -60,18 +51,28 @@
 </button>
 </li>
 </ul>
+<button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+	Действие
+</button>
+<ul class="dropdown-menu position-absolute">
+	<li><a class="dropdown-item" href="#">Home</a>	</li>
+	<li><a class="dropdown-item" href="#">About</a></li>
+	<li><a class="dropdown-item" href="#">Photos</a></li>
+	<li><a class="dropdown-item" href="#">Courses</a></li>
+	<li><a class="dropdown-item" href="#">Registration</a></li>
+</ul>
 </div>
 </nav>
-<section class="about-section bg-info ">
+<section class="about-section bg-info">
 	<div class="container py-3">
 		<h1 class="about-sec-title text-center mt-5">
 			About Us
 		</h1>
-		<div class="row d-flex justify-content-around mt-4">
-			<div class="col-6">
-				<img class="about-sec-list-img w-100" src="./img/robotics-arm.svg">
+		<div class="row d-flex justify-content-xl-around flex-xl-row flex-column  mx-auto mt-4">
+			<div class="col-6 mx-auto">
+				<img class="about-sec-list-img  w-100" src="./img/robotics-arm.svg">
 			</div>
-			<div class="col-5">
+			<div class="col-xl-5">
 				<p class="about-sec-list-subtetxt pt-4">
 					Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Veniam sequi totam quo temporibus, vero facilis, praesentium odio ratione exercitationem recusandae odit obcaecati voluptates voluptatem modi necessitatibus expedita nihil minima. Vero deleniti earum qui vel, veniam tempore iure ullam a ex, pariatur quod consequuntur, fuga, saepe? Distinctio et quibusdam, incidunt adipisci commodi. Maxime velit ad earum mollitia cupiditate perferendis eius nam, beatae repellendus voluptatem, nisi, commodi tempore? Eum alias aliquam debitis, aliquid neque explicabo dicta nulla illum architecto aut, esse asperiores excepturi voluptate. Blanditiis, et expedita. Esse omnis perferendis blanditiis repellat tempore atque consequatur. Natus corrupti eos iusto totam incidunt a, officiis maiores minima enim dolore soluta voluptatem, autem doloremque. Sapiente corrupti eos rerum cumque eius repellendus sit, dolorum error. Repudiandae laborum dolore, voluptas eum, explicabo excepturi nam possimus fugit laudantium fuga quas commodi exercitationem, delectus. Ea, impedit, perspiciatis? Nihil...
 				</p>
@@ -80,8 +81,49 @@
 		</div>
 	</div>
 </section>
-
-<section class="photos-section">
+<section class="d-block d-md-none py-5">
+	<div class="container">
+		<ul class="row list-unstyled mx-auto">
+			<li class="col-9 mx-auto border-0 shadow p-3 mb-5 bg-white rounded">
+				<div class="card border-0">
+					<img class="w-50 mx-auto" src="./img/ab1.jpeg" alt="card-img">
+					<div class="card-body">
+						<h5 class="mx-auto">Lorem, ipsum.</h5>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Illo repudiandae ex placeat quos, provident, libero facilis aut.</p>
+					</div>
+				</div>
+			</li>
+			<li class="col-9 mx-auto border-0 shadow p-3 mb-5 bg-white rounded">
+				<div class="card border-0">
+					<img class="w-50 mx-auto" src="./img/ab2.png" alt="card-img">
+					<div class="card-body">
+						<h5 class="mx-auto">Lorem, ipsum.</h5>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Dolorum incidunt enim deserunt a, vero aliquid necessitatibus ad!</p>
+					</div>
+				</div>
+			</li>
+			<li class="col-9 mx-auto border-0 shadow p-3 mb-5 bg-white rounded">
+				<div class="card border-0">
+					<img class="w-50 mx-auto" src="./img/ab3.png" alt="card-img">
+					<div class="card-body">
+						<h5 class="mx-auto">Lorem, ipsum.</h5>
+						<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Tenetur recusandae quasi eveniet, deleniti impedit, eaque fuga labore.</p>
+					</div>
+				</div>
+			</li>
+			<li class="col-9 mx-auto border-0 shadow p-3 mb-5 bg-white rounded">
+				<div class="card border-0">
+					<img class="w-50 mx-auto" src="./img/cours2.jpeg" alt="card-img">
+					<div class="card-body">
+						<h5 class="mx-auto">Lorem, ipsum.</h5>
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Cum dicta, soluta, dolores eaque sed labore nulla non!</p>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</section>
+<section class="photos-section d-md-block d-none pb-4">
 	<div class="container">
 		<h1 class="photos-sec-title text-center mt-5">Photos</h1>
 		<div class="photos-sec-main">
@@ -118,9 +160,9 @@
 			</div>
 		</div>
 	</section>
-	<section class="courses-sec bg-info">
-		<h1 class="text-center my-4">Courses</h1>
-		<div class="container d-flex justify-content-around py-3">
+	<section class="courses-sec bg-info pt-5">
+		<h1 class="text-center mb-4">Courses</h1>
+		<div class="container d-flex justify-content-md-around align-items-center py-3 flex-md-row flex-column">
 			<div class="card p-3 border-0 shadow p-3 mb-5 bg-white rounded" style="width: 20rem;">
 				<img src="./img/cours1.jpeg" class="card-img-top" alt="...">
 				<div class="card-body">
